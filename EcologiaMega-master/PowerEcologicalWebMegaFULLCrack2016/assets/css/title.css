@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #e6e6d8 url('https://dl.dropboxusercontent.com/s/t0gu051d08sei65/bg-retro-noise.png');
+/*  background: #e6e6d8 url('https://dl.dropboxusercontent.com/s/t0gu051d08sei65/bg-retro-noise.png');*/
   color: #121212;
 }
 
@@ -32,7 +32,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 70px;
-  text-shadow: 4px 5px #e6e6d8, 6px 7px #c6a39a;
+  text-shadow: 1px 3px #e6e6d8, 1px 6px #c6a39a;
 }
 
 h1 span {

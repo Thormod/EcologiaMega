@@ -49,7 +49,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 .social-circle li a {
   color: rgba(255, 255, 255, 0.7);
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.2);
 	display:inline-block;
 	position:relative;
 	margin:0 auto 0 auto;
@@ -79,7 +79,7 @@ a.socialIcon:hover, .socialHoverClass {
 	transition: all 0.2s;
 }
 .social-circle i {
-	color: #696969;
+	color: #fff;
 	-webkit-transition: all 0.8s;
 	-moz-transition: all 0.8s;
 	-o-transition: all 0.8s;
