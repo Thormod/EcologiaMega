@@ -42,24 +42,16 @@
           transform: rotate(0deg) translateX(-110px);
 }
 .menu-toggler:checked ~ ul .menu-item:nth-child(2) {
-  -webkit-transform: rotate(60deg) translateX(-110px);
-          transform: rotate(60deg) translateX(-110px);
+  -webkit-transform: rotate(90deg) translateX(-110px);
+          transform: rotate(90deg) translateX(-110px);
 }
 .menu-toggler:checked ~ ul .menu-item:nth-child(3) {
-  -webkit-transform: rotate(120deg) translateX(-110px);
-          transform: rotate(120deg) translateX(-110px);
-}
-.menu-toggler:checked ~ ul .menu-item:nth-child(4) {
   -webkit-transform: rotate(180deg) translateX(-110px);
           transform: rotate(180deg) translateX(-110px);
 }
-.menu-toggler:checked ~ ul .menu-item:nth-child(5) {
-  -webkit-transform: rotate(240deg) translateX(-110px);
-          transform: rotate(240deg) translateX(-110px);
-}
-.menu-toggler:checked ~ ul .menu-item:nth-child(6) {
-  -webkit-transform: rotate(300deg) translateX(-110px);
-          transform: rotate(300deg) translateX(-110px);
+.menu-toggler:checked ~ ul .menu-item:nth-child(4) {
+  -webkit-transform: rotate(270deg) translateX(-110px);
+          transform: rotate(270deg) translateX(-110px);
 }
 .menu-toggler:checked ~ ul .menu-item a {
   pointer-events: auto;
@@ -112,28 +104,18 @@
 }
 
 .menu-item:nth-child(2) a {
-  -webkit-transform: rotate(-60deg);
-          transform: rotate(-60deg);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 .menu-item:nth-child(3) a {
-  -webkit-transform: rotate(-120deg);
-          transform: rotate(-120deg);
-}
-
-.menu-item:nth-child(4) a {
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
 }
 
-.menu-item:nth-child(5) a {
-  -webkit-transform: rotate(-240deg);
-          transform: rotate(-240deg);
-}
-
-.menu-item:nth-child(6) a {
-  -webkit-transform: rotate(-300deg);
-          transform: rotate(-300deg);
+.menu-item:nth-child(4) a {
+  -webkit-transform: rotate(-270deg);
+          transform: rotate(-270deg);
 }
 
 .menu-item {
@@ -159,7 +141,7 @@
   height: inherit;
   line-height: 80px;
   color: rgba(255, 255, 255, 0.7);
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   text-align: center;
   text-decoration: none;
@@ -171,6 +153,6 @@
 .menu-item a:hover {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
   color: white;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.3);
   font-size: 44.44444px;
 }
