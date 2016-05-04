@@ -40,6 +40,10 @@ h2 span {
   vertical-align: middle;
 }
 
+h2:before{
+  margin-top: 20px;
+}
+
 span.star {
   font-size: 20px;
 }

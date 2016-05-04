@@ -156,3 +156,20 @@
   background: rgba(0, 0, 0, 0.3);
   font-size: 44.44444px;
 }
+
+.menu-item:nth-child(1) a:hover{
+  box-shadow: 0 0 0 2px rgba(45, 64, 241, 1);
+  color: rgb(45, 64, 241);
+}
+.menu-item:nth-child(2) a:hover{
+  box-shadow: 0 0 0 2px rgba(233, 241, 86, 1);
+  color: rgb(233, 241, 86);
+}
+.menu-item:nth-child(3) a:hover{
+  box-shadow: 0 0 0 2px rgb(255, 255, 255, 1);
+  color: rgb(255, 255, 255);
+}
+.menu-item:nth-child(4) a:hover{
+  box-shadow: 0 0 0 2px rgba(75, 236, 140, 1);
+  color: rgb(75, 236, 140);
+}
