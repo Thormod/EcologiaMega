@@ -59,10 +59,11 @@ html, body {
               height: 100%;
               text-align: center;
             }
+
             #lampadina {
                 position:relative;
             }
-            
+
             input[value="off"]:checked ~
             #filo {
                 -webkit-box-shadow: -80px -10px 7px 0 rgba(0,0,0,0.1);
