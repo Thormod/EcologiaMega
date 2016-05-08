@@ -1,5 +1,7 @@
 #lightbulbText{
-  position: relative;
+  position: fixed;
   font-family: 'Raleway';
-  margin-left: 55%;
+  margin-left: 40%;
+  top: 25%;
+  margin-right: 5%;
 }
