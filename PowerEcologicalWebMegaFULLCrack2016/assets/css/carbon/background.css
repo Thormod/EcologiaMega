@@ -1,0 +1,6 @@
+body {
+  background:
+              -webkit-linear-gradient(rgba(56, 255, 249, 0.4), rgba(70, 200, 255, 0) 80%),
+              -webkit-linear-gradient(-45deg, rgba(20, 30, 85, 0.9) 25%, rgba(21, 26, 75, 0.9) 75%);
+              background-repeat: repeat-y;
+}
